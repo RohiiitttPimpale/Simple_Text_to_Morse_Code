@@ -1,18 +1,3 @@
-# alphabet_list = [chr(i) for i in range(ord('a'), ord('z') + 1)]
-# alphabet_morse = [".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---",
-#          ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."]
-# number_morse = ["-----", ".----", "..---", "...--", "....-", ".....", "-....", "--...", "---..", "----."]
-#
-# dic = {" ":"/"}
-# for i in range(len(alphabet_list)):
-#     char = alphabet_list[i]
-#     dic[char] = alphabet_morse[i]
-#
-# for i in range(len(number_morse)):
-#     dic[f"{i}"] = number_morse[i]
-#
-# print(dic)
-
 dic = morse_code_dict = {
     # Letters
     'A': '.-',     'B': '-...',   'C': '-.-.',   'D': '-..',
